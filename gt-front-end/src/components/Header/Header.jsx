@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <header>Digital Collage Store</header>
+        <header>Digital Store</header>
     );
 }
  
