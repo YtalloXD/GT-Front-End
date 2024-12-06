@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
-import App from './App.jsx'
-import '../index.css'
+import App from './App.jsx';
+import './index.css';
 
 const main = () => {
     return (

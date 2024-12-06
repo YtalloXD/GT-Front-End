@@ -16,7 +16,15 @@
     --light-gray-3: #F5F5F5;
     --white: #FFFFFF;
 }
-/* body {
-    background-color: var(--primary);
-} */
 
+body {
+    background-color: var(--light-gray);
+}
+
+.header {
+    background-color: #CCCCCC;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

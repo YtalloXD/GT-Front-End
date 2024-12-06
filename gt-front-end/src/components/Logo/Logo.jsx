@@ -1,10 +1,9 @@
-import React from 'react'
-
+import React from 'react';
 
 const Logo = () => {
     return (
         <>
-        
+            <img src="/assets/logo-header.svg" alt="Digital Store Logo" width={253} height={44} />
         </>
     );
 }

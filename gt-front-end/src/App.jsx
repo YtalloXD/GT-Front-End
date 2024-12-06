@@ -1,4 +1,5 @@
-import Layout from "./pages/Layout";
+import React from 'react';
+import './index.css';
 
 const App = () => {
     return (
