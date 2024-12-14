@@ -21,10 +21,15 @@ body {
     background-color: var(--light-gray);
 }
 
-.header {
+header {
     background-color: #CCCCCC;
-    height: 70px;
+    color: var(--dark-gray);
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */

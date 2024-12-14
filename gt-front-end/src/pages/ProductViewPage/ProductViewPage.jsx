@@ -1,12 +1,12 @@
-import React from 'react'
-import Header from '../../components/Header/Header';
+import React, { children } from 'react';
+import Layout from '../Layout';
 
 const ProductViewPage = () => {
     return (
-        <div>
-            <Header />
+        <>
+            <Layout />
 
-        </div>
+        </>
     );
 }
  

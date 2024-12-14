@@ -1,14 +1,17 @@
-import React from 'react';
-import Logo from '../Logo/logo-header.svg';
-import './index.css';
+import React, { useState } from 'react';
+import Logo from '../Logo/Logo.jsx';
 
 const Header = () => {
     return (
-        <header class="header">
-            <Logo /> Digital Store
-
+        <>
+            <Logo /> <h1>Digital Store</h1>
+            
             <a href="#" >Cadastre-se</a>
-        </header>
+
+            <input type="text" placeholder="Pesquisar produto..." />
+        
+            
+        </>
     );
 }
  

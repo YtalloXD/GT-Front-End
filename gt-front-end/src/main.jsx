@@ -6,7 +6,7 @@ const main = () => {
     return (
         <StrictMode>
         <App />
-        </StrictMode>   
+        </StrictMode>
     );
 }
  

@@ -3,7 +3,9 @@ import React from 'react';
 const ProductListing = () => {
     return (
         <>
-        <BuyBox />
+        <ul>
+            <li></li>
+        </ul>
         
         </>
     )

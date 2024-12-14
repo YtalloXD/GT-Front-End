@@ -1,11 +1,11 @@
-import React from 'react'
-import Header from '../../components/Header/Header';
+import React, { children } from 'react';
+import Layout from '../Layout';
 
 const ProductListingPage = ({ children }) => {
     return ( 
-        <div>
-            <Header />
-        </div>
+        <>
+            <Layout />
+        </>
      );
 }
  

@@ -1,12 +1,14 @@
-import React from 'react'
-import Header from '../../components/Header/Header.jsx';
+import React from 'react';
+import Layout from '../Layout';
 
-const HomePage = ({ title, subtitle,  deeznuts }) => {
+
+
+const HomePage = () => {
     return ( 
-        <div>
-            <Header />
+        <>
+            <Layout />
 
-        </div>
+        </>
      );
 }
  
