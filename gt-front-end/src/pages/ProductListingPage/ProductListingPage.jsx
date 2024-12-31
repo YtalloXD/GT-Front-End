@@ -1,10 +1,10 @@
-import React, { children } from 'react';
-import Layout from '../Layout';
+import React from 'react';
+import Layout from '../Layout/Layout.jsx';
 
-const ProductListingPage = ({ children }) => {
+const ProductListingPage = () => {
     return ( 
         <>
-            <Layout />
+            
         </>
      );
 }

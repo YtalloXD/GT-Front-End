@@ -16,12 +16,26 @@
     --light-gray-3: #F5F5F5;
     --white: #FFFFFF;
 }
-
-body {
-    background-color: var(--light-gray);
+* {
+    color: var(--light-gray-2);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
+body {
+    color: black;
+    background-color: var(--primary);
+}
+
+.cont1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1 {
     background-color: #CCCCCC;
     color: var(--dark-gray);
     height: 100px;
